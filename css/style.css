@@ -1,13 +1,43 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  line-height: 170%;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #575757;
   float: left;
+  font-size: 1em;
+  font-weight: bold;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+p {
+  margin-top: 1.5em;
+}
+
+p.author {
+  font-style: italic;
+  font-weight: bolder;
+  line-height: 3em;
+}
+
+figcaption {
+  font-size: normal;
 }
 
 .logo {
@@ -35,15 +65,35 @@ nav {
 ul {
   list-style-type: none;
   float: right;
+  text-decoration: none;
 }
+
+a:link {  /* unvisited */
+  color: #ffffff;
+  text-decoration: none;
+  }
+a:visited {
+  color:#ffffff;
+  } /* visited */
+a:hover {
+  color:#d7d7d7;
+  font-weight: 900;
+}
+  /* mouse over */
+a:active {
+  color:#ffffff;
+  font-weight: bold;
+   } /* selected */
 
 li {
   float: right;
   padding: 30px;
+  text-decoration: none;
 }
 
 article {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .container {
